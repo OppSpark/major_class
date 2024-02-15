@@ -3,7 +3,7 @@
 
 
 
-## 주차별 리렉토리
+## 주차별 디렉토리
 
 ### 5주차
 - https://github.com/OppSpark/2023_2_algo/tree/main/5week
