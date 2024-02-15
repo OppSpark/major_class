@@ -1,6 +1,8 @@
+- 노션 필기
 https://www.notion.so/11-21-12week-27060347cb144a73bc4bff70fd96ee2f?pvs=4
 
 
+https://github.com/OppSpark/2023_2_problem/blob/main/12week/DynamicProgramming2.ipynb
 
 <aside>
 💡 서열 정렬
