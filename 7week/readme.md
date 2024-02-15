@@ -1,4 +1,5 @@
-[Greedy20231017.ipynb](https://prod-files-secure.s3.us-west-2.amazonaws.com/4e6fe536-1497-4feb-83c3-30b51c65762e/88a051bf-9ff3-4565-b750-e5d3f87795f2/Greedy20231017.ipynb)
+https://github.com/OppSpark/2023_2_problem/blob/main/7week/Greedy6%E1%84%8C%E1%85%AE8%E1%84%8C%E1%85%AE.ipynb
+
 
 <aside>
 💡 욕심내어 풀어보기
