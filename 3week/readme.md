@@ -1,5 +1,11 @@
 # 3주차 필기
 
+
+https://github.com/OppSpark/2023_2_problem/blob/main/3week/HW/20230912.ipynb
+
+
+
+
 <aside>
 💻 그래프 책 p.61
 
