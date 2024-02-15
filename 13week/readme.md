@@ -1,3 +1,6 @@
+- 주피터 노트북
+- https://github.com/OppSpark/2023_2_problem/blob/main/13week/Backtracking1.ipynb
+
 <aside>
 💡 되돌아가며 풀어보기
 
