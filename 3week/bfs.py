@@ -15,8 +15,6 @@ def bfs(v):
                 visited[w] = True
                 queue.append(w)
 
-
-
 print("BFS 방문 순서 : ")
 for i in range(n) :
     if not visited[i] :
