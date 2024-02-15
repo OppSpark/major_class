@@ -1,3 +1,6 @@
+https://github.com/OppSpark/2023_2_problem/blob/main/6week/Greedy6%E1%84%8C%E1%85%AE8%E1%84%8C%E1%85%AE.ipynb
+
+
 <aside>
 💡 퀵소트에서 피벗을 선택하는 방법
 
