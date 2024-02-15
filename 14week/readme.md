@@ -1,3 +1,6 @@
+- 백트레킹
+- https://github.com/OppSpark/2023_2_problem/blob/main/14week/Backtracking2.ipynb
+
 <aside>
 💡 되돌아가며 풀어보기
 
