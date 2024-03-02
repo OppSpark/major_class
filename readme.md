@@ -9,3 +9,13 @@
     - https://github.com/OppSpark/major_class/tree/main/2023_java
 - 문제해결기법
     - https://github.com/OppSpark/major_class/tree/main/2023_problem
+- 운영체제
+    - https://github.com/OppSpark/major_class/tree/main/2023_OS
+
+## 2024학년 1학기
+- 이산수학
+- 어셈블리 프로그래밍
+- 컴퓨터 네트워크
+- 데이터베이스
+- 고급 프로그래밍
+- 머신 러닝 기초
