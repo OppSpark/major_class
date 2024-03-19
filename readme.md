@@ -13,6 +13,11 @@
     - https://github.com/OppSpark/major_class/tree/main/2023_OS
 
 ## 2024학년 1학기
+
+- 2024학년도 필기 링크
+	- https://www.notion.so/24_1-Course-2fc223a8ea894e67b68a4ed12d719f4d?pvs=4
+
+
 - 이산수학
 - 어셈블리 프로그래밍
 - 컴퓨터 네트워크
