@@ -1,5 +1,4 @@
 fun main(){
-
     val person = Person("John", "Doe")
     val wallet = person.Possession("Wallet")
 
@@ -8,7 +7,6 @@ fun main(){
 
     println(isLetterString("abc"))
     println(isLetterString("null"))
-
 }
 
 fun isLetterString(s: String?) :Boolean{
