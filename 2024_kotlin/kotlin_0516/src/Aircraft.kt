@@ -1,0 +1,1 @@
+class Aircraft(val seats:Int) : FlyingVehicle()
