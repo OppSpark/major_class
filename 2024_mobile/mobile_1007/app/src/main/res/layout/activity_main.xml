@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/lengthEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="숫자를 입력하세요"
+        android:inputType="text"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/lengthTextButton"
+        android:layout_width="960px"
+        android:layout_height="180px"
+        android:layout_marginTop="16dp"
+        android:textSize="48px"
+        android:text="숫자 길이 계산"
+        android:onClick="onButtonClicked"/>
+    <TextView
+        android:id="@+id/lengthTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/tempText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="화씨 온도를 입력하세요"
+        android:inputType="text"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/tempTextButton"
+        android:layout_width="960px"
+        android:layout_height="180px"
+        android:layout_marginTop="16dp"
+        android:textSize="48px"
+        android:text="섭시로 변환"
+        android:onClick="onButtonClicked"/>
+
+    <TextView
+        android:id="@+id/tempTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"/>
+
+
+</LinearLayout>
