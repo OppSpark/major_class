@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <CheckBox
+        android:id="@+id/checkbox_en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="영어 대화 가능">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/checkbox_cn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="중국어 대화 가능">
+    </CheckBox>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radiobutton_kr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="한국인">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/radiobutton_fr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="외국인">
+        </RadioButton>
+    </RadioGroup>
+    
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입력 내용 표시">
+    </Button>
+
+    <TextView
+        android:id="@+id/textview_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="입력 내용 확인">
+    </TextView>
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="초기화">
+    </Button>
+
+    <CheckBox
+        android:id="@+id/checkbox_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lock">
+    </CheckBox>
+
+</LinearLayout>

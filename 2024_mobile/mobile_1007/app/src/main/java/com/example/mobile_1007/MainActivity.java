@@ -29,21 +29,21 @@ public class MainActivity extends AppCompatActivity{
         Button tempButton = findViewById(R.id.tempTextButton);
         TextView tempTextView = findViewById(R.id.tempTextView);
 
-        tempButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                double temp = Double.parseDouble(tempEditText.getText().toString());
-                temp = temp * 1.8 + 32;
-                tempTextView.setText("화씨 온도는 " + temp + "입니다.");
+        tempButton.setOnClickListener(v -> {
+            if(tempEditText.getText().toString().equals("")){
+                tempTextView.setText("온도를 입력해주세요.");
+                return;
             }
+            double temp = Double.parseDouble(tempEditText.getText().toString());
+            temp = temp * 1.8 + 32;
+            tempTextView.setText("화씨 온도는 " + temp + "입니다.");
         });
 
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                int length = onClickButtonHandler.getOnClickButtonHandler(editTexts.getText().toString());
-                textView.setText("String 길이는 " + length + "입니다.");
-            }
+        button.setOnClickListener(v ->{
+                String textLength = editTexts.getText().toString();
+                int length = onClickButtonHandler.getOnClickButtonHandler(textLength);
+                textView.setText("입력한 문자열의 길이는 " + length + "입니다.");
         });
+
     }
 }
