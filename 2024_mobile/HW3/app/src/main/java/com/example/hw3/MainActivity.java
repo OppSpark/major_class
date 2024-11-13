@@ -117,8 +117,7 @@ public class MainActivity extends AppCompatActivity {
         if (checkBoxAisleSeats.isChecked()) {
             sb.append("복도 선호\n");
         }
-
-        textViewResult.setText(sb.toString());
+        textViewResult.setText(sb.toString().trim());
     }
 
     private void onClickButtonSummit() {
