@@ -1,42 +1,33 @@
 package com.example.studyonlyapplication;
 
-import android.graphics.Color;
+import static android.provider.CalendarContract.CalendarCache.URI;
+
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.LinearLayout;
-import android.widget.Spinner;
-import android.widget.TextView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-import androidx.media3.common.util.Log;
 
-import java.util.Random;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-
-    TextView tv;
+public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
-
-        tv = findViewById(R.id.textview);
-
-        tv.setOnClickListener(this);
-    }
-
-    @Override
-    public void onClick(View v){
-        if(v.getId() == R.id.textview)
-            v.setBackgroundColor(Color.RED);
+        LinearLayout layout = new LinearLayout(this);
+        Button button = new Button(this);
+        button.setText("실행");
+        layout.addView(button);
+        setContentView(layout);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:09876543210"));
+                startActivity(intent);
+            }
+        });
     }
 }
